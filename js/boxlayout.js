@@ -1,3 +1,8 @@
+/** This Code is not my original content: I am not a web designer, so I just found it
+ *	it in the internet and adapted it to my needs. 
+ *  For the sake of correctness and trasparency I leave all the references.
+ */
+
 /* Modernizr 2.6.2 (Custom Build) | MIT & BSD
  * Build: https://modernizr.com/download/#-cssanimations-csstransitions-touch-shiv-cssclasses-prefixed-teststyles-testprop-testallprops-prefixes-domprefixes-load
  */
