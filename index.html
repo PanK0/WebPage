@@ -1,0 +1,276 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>Fullscreen Layout with Page Transitions</title>
+		<meta name="description" content="Fullscreen Layout with Page Transitions" />
+		<meta name="keywords" content="fullscreen layout, boxes, responsive, page transitions, css transitions, jquery, portfolio, template" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="https://tympanus.net/Development/favicon.ico">
+		<link rel="stylesheet" href="styles/style.css">
+	</head>
+
+	<body>
+		<div class="container">	
+			<div id="bl-main" class="bl-main">
+				<section>
+					<div class="bl-box">
+						
+					<!--
+						<h2 class="bl-icon bl-icon-about">About</h2>
+					-->
+						<div align="center">
+							<img class="propic" src="images/img_avatar.png" alt="Avatar">
+						</div>
+						<div class="info">
+							<h1>Gianluca Panici</h1>
+							<h3>Master's Degree student in 
+								<br>Engineering in Computer Science
+								<br>@ Sapienza University of Rome</h3>
+							<br>
+							Passionate in technology, hot peppers lover, still a dreamer.
+						</div>
+
+					</div>
+					<div class="bl-content">
+						<span class="bl-icon bl-icon-close">
+							<img src="images/home.png" height="70px" width="70px">
+						</span>
+						<div align="center">
+							<img class="propic-large" src="images/img_avatar.png" alt="Avatar">
+						</div>
+						<div class="info">
+							<h1>Gianluca Panici</h1>
+							<h3>Master's Degree student in 
+								<br>Engineering in Computer Science
+								<br>@ Sapienza University of Rome</h3>
+							<br>
+							Passionate in technology, hot peppers lover, still a dreamer.
+						</div>
+						
+					</div>
+					
+				</section>
+				<section id="bl-work-section">
+					<div class="bl-box">
+						<h2 class="bl-icon bl-icon-works">
+							<img src="images/curriculum_03.png" height="70px" width="70px">
+							<br> <br>
+							Curriculum <br> Vitae
+						</h2>
+					</div>
+					<div class="bl-content">
+						<span class="bl-icon bl-icon-close">
+							<img src="images/home.png" height="70px" width="70px">
+						</span>
+						<h2><b>Gianluca Panici</b></h2>
+						<p>
+							panici.k@gmail.com
+							<br>
+							Rome, Italy							
+						</p>
+						<hr class="contacts">
+						<br>
+						<p>
+							<span class="title"> Education </span>
+							<p>
+								<span class="subtitle"> > Master's Degree </span>
+								<br>
+								Currently enrolled in Master's Degree in Engineering in Computer Science at Sapienza Università di Roma.
+							</p>
+							<br>
+							<p>
+								<span class="subtitle"> > Bachelor's Degree </span>
+								<br>
+								Bachelor's Degree in Engineering in Computer Science at Sapienza Università di Roma. <br>
+								Thesis title: <b>"Development of a File System based on iNodes"</b>. <a href="https://github.com/PanK0/iNode_FS" target="_blank"> GitHub link </a> <br>
+								[100/110] 
+							</p>
+							<br>
+							<p>
+								<span class="subtitle"> > High School </span>
+								<br>
+								Classical Lyceum P. Gobetti in Fondi, Italy. <br>
+								Elected President of the students for three consecutive years. <br>
+								[92/100]
+							</p>
+						</p>
+						<hr class="contacts">
+						<p>
+							<span class="title"> Skills </span>
+							<br>
+							Programming, C, Java, Python, Assembly, SQL <br>
+							Algorithms, Data Structures, Operating Systems, Linux User, Ubuntu User<br> 
+							Engineering, Logic, Databases <br>
+							Problem Solving, Motivational Speaking, Public Speaking, Event Organization, Team Projects <br>
+							Technology Enthusiastic, Science Lover
+						</p>
+						<hr class="contacts">
+						<p>
+							<span class="title"> Languages </span>
+							<br>
+							Italian, English
+						</p>
+						<hr class="contacts">
+						<p>
+							<span class="title"> My Works </span>
+							<ul id="bl-work-items">
+
+								<li data-panel="panel-6"><a href="#"><img src="images/moonet.png" width=350px />MooNet <br> ESA OSIP Idea <br></a> Idea for ESA OSIP </li>
+
+								<li data-panel="panel-1"><a href="#"><img src="images/talkingchalks.png"  width=350px />Talking <br> Chalks</a>Project for IOT Course</li>
+
+								<li data-panel="panel-2"><a href="#"><img src="images/iot.png" width=350px />Environmental <br> Stations</a>Projects for IOT Course</li>
+
+								<li data-panel="panel-3"><a href="#"><img src="images/inode.png" width=350px />iNode <br> File System</a> Bachelor's Thesis</li>
+
+								<li data-panel="panel-4"><a href="#"><img src="images/linkedlist.jpg" width=350px />Linked List <br> File System</a> Operating Systems course</li>
+
+								<li data-panel="panel-5"><a href="#"><img src="images/openchallenge.png" width=350px />Open <br> Challenge <br></a> Google Workshop </li>
+
+							</ul>
+						</p>
+					</div>
+				</section>
+				<section>
+					<div class="bl-box">
+						<h2 class="bl-icon bl-icon-blog">
+							<img src="images/more.png" height="70px" width="70px">
+							<br>
+							More <br> About <br> Me</h2>
+					</div>
+					<div class="bl-content">
+						<span class="bl-icon bl-icon-close">
+							<img src="images/home.png" height="70px" width="70px">
+						</span>
+						<h2>More About Me</h2>
+						<article>
+							<h3>Instruction</h3>
+							<p>Stumptown helvetica cardigan, odd future seitan tattooed flannel. Kale chips direct trade cray beard. 8-bit etsy butcher post-ironic blog lo-fi mcsweeney's, sustainable pickled umami flexitarian DIY ethical plaid trust fund. Wolf cred organic, terry richardson aesthetic four loko occupy vegan chillwave readymade deep... </p>
+						</article>
+						<article>
+							<h3>Technology</h3>
+							<p>Cosby sweater odd future gluten-free actually dreamcatcher. Fixie cray vice sriracha disrupt, lo-fi pitchfork mcsweeney's swag YOLO meh chambray etsy. Keytar sriracha fanny pack church-key hashtag vice blog. 3 wolf moon VHS helvetica, raw denim deep v shoreditch seitan twee... </p>
+						</article>
+						<article>
+							<h3>Sky and Space</h3>
+							<p>Locavore irony gastropub chillwave, butcher meggings flexitarian pinterest master cleanse godard. Intelligentsia pop-up neutra, williamsburg gastropub godard pinterest swag deep v umami lomo. Butcher next level 90's wolf bushwick, narwhal photo booth YOLO kale chips whatever small batch. Meh viral ethical hella cardigan portland, street art mlkshk meggings mixtape kale chips cliche messenger bag pitchfork... </p>
+						</article>
+						<article>
+							<h3> Personal goals </h3>
+							<p> bla bla bla</p>
+						</article>
+						<article>
+							<h3> Projects </h3>
+							<p> LINK TO PROJECTS </p>
+						</article>
+					</div>
+				</section>
+				<section>
+					<div class="bl-box">
+						<h2 class="bl-icon bl-icon-contact">
+						<img src="images/contacts.png" height="70px" width="70px">
+							<br> <br>
+						Contacts </h2>
+					</div>
+					<div class="bl-content">
+						<span class="bl-icon bl-icon-close">
+							<img src="images/home.png" height="70px" width="70px">
+						</span>
+						
+						<div class="info"> 
+							<h2>Get in touch</h2>
+							<br> <br>
+							<p>
+								<a href="mailto:panici.k@gmail.com" target="_blank"><img src="images/email.png" height="100px" width="100px"></a>
+								<br>
+								<h3><span id="email"> panici.k@gmail.com </span></h3>
+								<br>
+								<button onclick="copy('#email')">copy</button></p>
+							<hr class="contacts">
+							<br>
+							<p>
+								<a href="https://github.com/PanK0" target="_blank"><img src="images/github.png" height="100px" width="100px"></a>
+								<br>
+								<a href="https://github.com/PanK0" target="_blank"> GitHub Page </a>
+							</p>
+							<hr class="contacts">
+							<br>
+							<p>
+								<a href="https://www.linkedin.com/in/gianluca-panici-452347146/" target="_blank"><img src="images/linkedin.png" height="100px" width="100px"></a>
+								<br>
+								<a href="https://www.linkedin.com/in/gianluca-panici-452347146/" target="_blank"> LinkedIn Profile </a>
+							</p>
+						</div>
+					</div>
+				</section>
+
+				<!-- Panel items for the works -->
+				<div class="bl-panel-items" id="bl-panel-work-items">
+					<div data-panel="panel-6">
+						<div>
+							<img src="images/moonet.png" />
+							<h3> MooNet </h3>
+							<p><a href="https://ideas.esa.int/servlet/hype/IMT?documentTableId=45087622665124788&userAction=Browse&templateName=&documentId=ee5669c4fe10cf6ac633ee2dc20a383d" target="_blank"> ESA Link </a> <br>
+							Fashion axe 90's pug fap. Blog wayfarers brooklyn dreamcatcher, bicycle rights retro YOLO. Wes anderson lomo 90's food truck 3 wolf moon, twee jean shorts. Iphone small batch twee wolf yr before they sold out. Brooklyn echo park cred, portland pug selvage flannel seitan tousled mcsweeney's.</p>
+						</div>
+					</div>
+					<div data-panel="panel-1">
+						<div>
+							<img src="images/talkingchalks.png" />
+							<h3>Talking Chalks</h3>
+							<p><a href="https://github.com/PanK0/TalkingChalks" target="_blank"> GitHub Link </a> <br> 
+							Iphone artisan direct trade ethical Austin. Fixie bespoke banh mi ugh, deep v vinyl hashtag. Tumblr gentrify keffiyeh pop-up iphone twee biodiesel. Occupy american apparel freegan cliche. Mustache trust fund 8-bit jean shorts mumblecore thundercats. Pour-over small batch forage cray, banjo post-ironic flannel keffiyeh cred ethnic semiotics next level tousled fashion axe. Sustainable cardigan keytar fap bushwick bespoke.</p>
+						</div>
+					</div>
+					<div data-panel="panel-2">
+						<div>
+							<img src="images/iot.png" />
+							<h3>Environmental Stations</h3>
+							<p><a href="https://github.com/PanK0/iot-project" target="_blank"> GitHub Link </a> <br>
+							 Squid vinyl scenester literally pug, hashtag tofu try-hard typewriter polaroid craft beer mlkshk cardigan photo booth PBR. Chillwave 90's gentrify american apparel carles disrupt. Pinterest semiotics single-origin coffee craft beer thundercats irony, tumblr bushwick intelligentsia pickled. Narwhal mustache godard master cleanse street art, occupy ugh selfies put a bird on it cray salvia four loko gluten-free shoreditch.</p>
+						</div>
+					</div>
+					<div data-panel="panel-3">
+						<div>
+							<img src="images/inode.png" />
+							<h3> Development of a File System Based on iNodes</h3>
+							<p><a href="https://github.com/PanK0/iNode_FS" target="_blank"> GitHub Link </a> <br>
+							 Ethical cray wayfarers leggings vice, seitan banksy small batch ethnic master cleanse. Pug chillwave etsy, scenester meh occupy blue bottle tousled blog tonx pinterest selvage mixtape swag cosby sweater. Synth tousled direct trade, hella Austin craft beer ugh chambray.</p>
+						</div>
+					</div>
+					<div data-panel="panel-4">
+						<div>
+							<img src="images/linkedlist.jpg" />
+							<h3>Linked Lists Based File System </h3>
+							<p><a href="https://github.com/PanK0/SO_FS" target="_blank"> GitHub Link </a> Fashion axe 90's pug fap. Blog wayfarers brooklyn dreamcatcher, bicycle rights retro YOLO. Wes anderson lomo 90's food truck 3 wolf moon, twee jean shorts. Iphone small batch twee wolf yr before they sold out. Brooklyn echo park cred, portland pug selvage flannel seitan tousled mcsweeney's.</p>
+						</div>
+					</div>
+					<div data-panel="panel-5">
+						<div>
+							<img src="images/openchallenge.png" />
+							<h3> OpenChallenge </h3>
+							<p><a href="https://github.com/gnufsociety/openchallenge" target="_blank"> GitHub Link </a> <br>
+							Fashion axe 90's pug fap. Blog wayfarers brooklyn dreamcatcher, bicycle rights retro YOLO. Wes anderson lomo 90's food truck 3 wolf moon, twee jean shorts. Iphone small batch twee wolf yr before they sold out. Brooklyn echo park cred, portland pug selvage flannel seitan tousled mcsweeney's.</p>
+						</div>
+					</div>
+					<nav>
+						<span class="bl-next-work">&gt; Next Project</span>
+						<span class="bl-icon bl-icon-close">&gt; HOME</span>
+					</nav>
+				</div>
+			</div>
+		</div><!-- /container -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script src="js/boxlayout.js"></script>
+		<script>
+			$(function() {
+				Boxlayout.init();
+			});
+		</script>
+	</body>
+
+</html>
