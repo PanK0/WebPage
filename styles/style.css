@@ -59,10 +59,11 @@ span.subtitle {
 
 .propic-large {
 	border-radius: 50%;
-	height: 400px;
-	width: 400px;
+	max-height: 50%;
+	width: 50%;
 	margin-top: 5%;
 }
+
 
 .info {
 	text-align: center;
