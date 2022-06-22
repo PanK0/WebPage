@@ -1,359 +1,525 @@
-
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
-		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-		<title>Panici Gianluca</title>
-		<meta name="description" content="Gianluca Panici's personal web page" />
-		<meta name="keywords" content="Engineering, Engineer, Computer Science, Gianluca Panici, curriculum" />
-		<meta name="author" content="Panici Gianluca" />
-		<link rel="shortcut icon" href="https://tympanus.net/Development/favicon.ico">
-		<link rel="stylesheet" href="styles/style.css">
-	</head>
 
-	<body>
-		<div class="container">	
-			<div id="bl-main" class="bl-main">
-				<section>
-					<div class="bl-box">
-						
-					<!--
-						<h2 class="bl-icon bl-icon-about">About</h2>
-					-->
-						<div align="center">
-							<img class="propic" src="images/img_avatar.png" alt="Avatar">
-						</div>
-						<div class="info">
-							<h1>Gianluca Panici</h1>
-							<h3>Master's Degree student in 
-								<br>Engineering in Computer Science
-								<br>@ Sapienza University of Rome</h3>
-						</div>
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-					</div>
-					<div class="bl-content">
-						<span class="bl-icon bl-icon-close">
-							<img src="images/home.png" height="30px" width="30px">
-						</span>
-						<div align="center">
-							<img class="propic-large" src="images/img_avatar.png" alt="Avatar" >
-						</div>
-						<div class="info">
-							<h1>Gianluca Panici</h1>
-							<h3>Master's Degree student in 
-								<br>Engineering in Computer Science
-								<br>@ Sapienza University of Rome</h3>
-							<br>
-							Passionate in technology, hot peppers lover, still a dreamer.
-						</div>
-						
-					</div>
-					
-				</section>
-				<section id="bl-work-section">
-					<div class="bl-box">
-						<h2 class="bl-icon bl-icon-works">
-							<img src="images/curriculum_03.png" height="70px" width="70px">
-							<br> <br>
-							Curriculum <br> Vitae
-						</h2>
-					</div>
-					<div class="bl-content">
-						<span class="bl-icon bl-icon-close">
-							<img src="images/home.png" height="30px" width="30px">
-						</span>
-						<h2><b>Gianluca Panici</b></h2>
-						<p>
-							panici.k@gmail.com
-							<br>
-							Rome, Italy							
-						</p>
-						<hr class="contacts">
-						<br>
-						<p>
-							<span class="title"> Education </span>
-							<p>
-								<span class="subtitle"> > Master's Degree </span>
-								<br>
-								Currently enrolled in Master's Degree in Engineering in Computer Science at Sapienza Università di Roma.
-							</p>
-							<br>
-							<p>
-								<span class="subtitle"> > Bachelor's Degree </span>
-								<br>
-								Bachelor's Degree in Engineering in Computer Science at Sapienza Università di Roma. <br>
-								Thesis title: <b>"Development of a File System based on iNodes"</b>. <a href="https://github.com/PanK0/iNode_FS" target="_blank"> GitHub link </a> <br>
-								[100/110] 
-							</p>
-							<br>
-							<p>
-								<span class="subtitle"> > High School </span>
-								<br>
-								Classical Lyceum P. Gobetti in Fondi, Italy. <br>
-								Elected President of the students for three consecutive years. <br>
-								[92/100]
-							</p>
-						</p>
-						<hr class="contacts">
-						<p>
-							<span class="title"> Skills </span>
-							<br>
-							> Programming, C, Java, Python, Assembly, SQL <br>
-							> Algorithms, Data Structures, Cryptography, Operating Systems, Linux User, Ubuntu User<br> 
-							> Engineering, Logic, Databases <br>
-							> Problem Solving, Motivational Speaking, Public Speaking, Event Organization, Team Projects <br>
-							> Technology Enthusiastic, Science Lover
-						</p>
-						<hr class="contacts">
-						<p>
-							<span class="title"> Languages </span>
-							<br>
-							Italian, English
-						</p>
-						<hr class="contacts">
-						<p>
-							<span class="title"> My Works </span>
-							<ul id="bl-work-items">
+  <title>Panici Gianluca</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
 
-								<li data-panel="panel-8"><a href="#"><img src="images/cnn.jpg" width=350px /> Neural <br> Network </a> Image Classification </li>
+  <!-- Favicons -->
+  <link href="assets/img/algorithmicon.png" rel="icon">
+  <link href="assets/img/algorithmicon.png" rel="apple-touch-icon">
 
-								<li data-panel="panel-7"><a href="#"><img src="images/wappvstg.png" width=350px /> Signal VS <br> MTProto </a> Protocol analysis </li>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
-								<li data-panel="panel-6"><a href="#"><img src="images/moonet.png" width=350px />MooNet <br> ESA OSIP Idea <br></a> Idea for ESA OSIP </li>
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-								<li data-panel="panel-1"><a href="#"><img src="images/talkingchalks.png"  width=350px />Talking <br> Chalks</a>Project for IOT Course</li>
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
 
-								<li data-panel="panel-2"><a href="#"><img src="images/iot.png" width=350px />Environmental <br> Stations</a>Projects for IOT Course</li>
+  <!-- =======================================================
+  * IMPORTANT: I am NOT A WEB DESIGNER. I took this template and modified it for my necessities. For respect's sake I'll leave the producer's information.  
+  * Template Name: iPortfolio - v3.7.0
+  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
 
-								<li data-panel="panel-3"><a href="#"><img src="images/inode.png" width=350px />iNode <br> File System</a> Bachelor's Thesis</li>
+<body>
 
-								<li data-panel="panel-4"><a href="#"><img src="images/linkedlist.jpg" width=350px />Linked List <br> File System</a> Operating Systems course</li>
+  <!-- ======= Mobile nav toggle button ======= -->
+  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
 
-								<li data-panel="panel-5"><a href="#"><img src="images/openchallenge.png" width=350px />Open <br> Challenge <br></a> Google Workshop </li>
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="d-flex flex-column">
 
-							</ul>
-						</p>
-					</div>
-				</section>
-				<section>
-					<div class="bl-box">
-						<h2 class="bl-icon bl-icon-blog">
-							<img src="images/more.png" height="70px" width="70px">
-							<br>
-							More <br> About <br> Me</h2>
-					</div>
-					<div class="bl-content">
-						<span class="bl-icon bl-icon-close">
-							<img src="images/home.png" height="30px" width="30px">
-						</span>
-						<h2>More About Me</h2>
-						<article>
-							<h3>Instruction</h3>
-							<p>During the Classical studies I learned how to appreciate ancient history, literature and mythology. I strongly believe that the study of the past is essential to understand the present and somehow the future.
-							In this time I have been elected President of the students for three consecutive years, giving a lot for my school and my mates with a lot of cultural and recreational activities.
-							<br>
-							After the High School my studies continued in the computers world: this passion was born for the curiosity's sake because I have always wanted to understand how computers work in all their aspectes. That's why I have choosen Engineering in Computer Science, both for my Bachelor's and Master's Degree.
-							<br>
-							I've always been attracted from projecting and programming, and my academic path is driving me into the best way.
-							</p>
-						</article>
-						<article>
-							<h3>Science and Technology</h3>
-							<p> Other than my studies, I am passionate about science and technology: I love to stay tuned in new technologies, solutions and ideas that could make this world better.
-							<br>
-							From technology to astronomy, passing by biology I like to read more and more to have a nice idea on how the world works.
-							<br>
-							I also like to read about cyber security and to teach people around me about the risks and possibilities of the internet: I strongly believe that education is essential for living well in a fully connected world.
-							</p>
-						</article>
-						<article>
-							<h3>Sky and Space</h3>
-							<p> Since I was i child the sky has always been part of my life: I've grown up always looking up, having fun by learning new stuffs about jet airplanes and dreaming under the stars.
-							<br>
-							This close bond with the sky has been my fuel to pursue the dream of flying, that's why I learned to fly as an amateur pilot. 
-							<br>
-							This quote from Leonardo Da Vinci well describes the realization of my dream:
-							<br>
-							<i> “Once you have tasted flight, you will forever walk the earth with your eyes turned skyward, for there you have been, and there you will always long to return.” </i>
-							<br>
-							My strong passion for what is above us moves my desire on orienting my studies in order to give my contributions as a Computer Engineer in the aerospace sector: the future is now, and I really want to be part of it.
-							</p>
-						</article>
-						<article>
-							<h3> Personal goals </h3>
-							<p> As I have said before, I am proud of myself for making my dream to fly true. To look at the world from above is a very intensive and life-changing experience.
-							<br>
-							Other than that, I have the passion of gardening and growing hot peppers: I think that life is like true magic, and plants have taught me that patience and hard work always pay.
-							<br>
-							One more thing I like to do in my free time is practicing Kick Boxing: I am now a brown belt in this combact sport and I am studying for the black belt with instructor grades.
-							</p>
-						</article>
-					</div>
-				</section>
-				<section>
-					<div class="bl-box">
-						<h2 class="bl-icon bl-icon-contact">
-						<img src="images/contacts.png" height="70px" width="70px">
-							<br> <br>
-						Contacts </h2>
-					</div>
-					<div class="bl-content">
-						<span class="bl-icon bl-icon-close">
-							<img src="images/home.png" height="30px" width="30px">
-						</span>
-						
-						<div class="info"> 
-							<h2>Get in touch</h2>
-							<br> <br>
-							<p>
-								<a href="mailto:panici.k@gmail.com" target="_blank"><img src="images/email.png" height="100px" width="100px"></a>
-								<br>
-								<h3><span id="email"> panici.k@gmail.com </span></h3>
-								<br>
-								<button onclick="copy('#email')">copy</button></p>
-							<hr class="contacts">
-							<br>
-							<p>
-								<a href="https://github.com/PanK0" target="_blank"><img src="images/github.png" height="100px" width="100px"></a>
-								<br>
-								<a href="https://github.com/PanK0" target="_blank"> GitHub Page </a>
-							</p>
-							<hr class="contacts">
-							<br>
-							<p>
-								<a href="https://www.linkedin.com/in/gianluca-panici-452347146/" target="_blank"><img src="images/linkedin.png" height="100px" width="100px"></a>
-								<br>
-								<a href="https://www.linkedin.com/in/gianluca-panici-452347146/" target="_blank"> LinkedIn Profile </a>
-							</p>
-						</div>
-					</div>
-				</section>
+      <div class="profile">
+        <img src="assets/img/profile-img.png" alt="" class="img-fluid rounded-circle">
+        <h1 class="text-light"><a href="index.html">Gianluca Panici</a></h1>
+        <div class="social-links mt-3 text-center">
+          <!--
+          <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+          <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+          <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+          -->
+          <a href="https://github.com/PanK0" class="githubS"><i class="bx bxl-github"></i></a>
+          <a href="https://www.linkedin.com/in/gianluca-panici-452347146/" class="linkedin"><i class="bx bxl-linkedin"></i></a>          
+        </div>
+        &nbsp;
+        <div class="copyright text-light" style="text-align:center" >
+          <strong><span>Master's Degree student in &nbsp; Engineering in Computer Science &nbsp; @ Sapienza University of Rome</span></strong>
+        </div>
+      </div>
 
-				<!-- Panel items for the works -->
-				<div class="bl-panel-items" id="bl-panel-work-items">
-					<div data-panel="panel-8">
-						<div>
-							<img src="images/cnn.jpg" />
-							<h3> Convolutional Neural Network for image classification </h3>
-							<p><a href="https://github.com/PanK0/Convolutional-Neural-Network" target="_blank"> GitHub Link </a> <br>
-							This work comes from an homework for Machine Learning course at Sapienza University.
-							<br>
-							In this homework we were invited to provide a solution for the classification of images regarding objects in a home environment. 
-							<br>
-							To solve the problem I took into account the given exercise about Ensebles of Convolutional Neural Networks, adapting that to the problem and explaining my decisions for the proposed solution.
-							<br>
-							See the full report <a href="https://github.com/PanK0/Convolutional-Neural-Network/blob/main/Report/report_hw2.pdf" target="_blank"> Here</a>.
-							</p>
-						</div>
-					</div>
-					<div data-panel="panel-7">
-						<div>
-							<img src="images/wappvstg.png" />
-							<h3> Signal and MTProto protocols analysis </h3>
-							<p><a href="https://github.com/PanK0/Signal-and-MTProto-protocols-analysis" target="_blank"> GitHub Link </a> <br>
-							This document is the report of an homework assigned in the Computer and Network Security course at Sapienza University of Rome and deals with an high level understanding of Signal protocol and MTProto protocol respectively adopted by WhatsApp and Telegram for communication.
-							<br>
-							In the report I discuss and compare differencies and similarities between the protocols, analyzing some important security aspects.
-							</p>
-						</div>
-					</div>
-					<div data-panel="panel-6">
-						<div>
-							<img src="images/moonet.png" />
-							<h3> MooNet </h3>
-							<p><a href="https://ideas.esa.int/servlet/hype/IMT?documentTableId=45087622665124788&userAction=Browse&templateName=&documentId=ee5669c4fe10cf6ac633ee2dc20a383d" target="_blank"> ESA Link </a> <br>
-							The advent of interplanetary colonization has become. Living on our  satellite will be characterized by a massive presence of technology,  from which lives will rely, as well as a huge amount of research tools,  all of them coordinated in groups in several districts of the Moon. The  need to make all these facilities to communicate with each other arises,  together with the need to talk with Home and, last but not least,  accessing the Internet from the Moon. 
-							Read more on the dedicated <a href="https://ideas.esa.int/servlet/hype/IMT?documentTableId=45087622665124788&userAction=Browse&templateName=&documentId=ee5669c4fe10cf6ac633ee2dc20a383d" target="_blank"> ESA page </a>.
-							<br>
-							This idea has been developed during the ESA OSIP Call for Ideas. <a href="https://ideas.esa.int/servlet/hype/IMT?userAction=Browse&templateName=&documentId=7257e8d165a32b877027ebfc5e67d8d9" target="_blank"> Read More...</a>
+      <!-- ======= NAVBAR ======= -->
+      <nav id="navbar" class="nav-menu navbar">
+        <ul>
+          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+          <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
+          <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+          <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>My Projects</span></a></li>
+          <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+        </ul>
+      </nav><!-- .nav-menu -->
+    </div>
+  </header><!-- End Header -->
 
-							</p>
-						</div>
-					</div>
-					<div data-panel="panel-1">
-						<div>
-							<img src="images/talkingchalks.png" />
-							<h3>Talking Chalks</h3>
-							<p><a href="https://github.com/PanK0/TalkingChalks" target="_blank"> GitHub Link </a> <br>
-							<a href="https://www.hackster.io/348161/talking-chalks-d497bc" target="_blank"> Hackster Blog </a>
-							<br>
-							TalkingChalks is an IoT system that can be used in a museum. It can help visitors during the tour providing information about the museum, the statues and the story behind them. A smartband with the most suitable profile will be provided to each visitor, so that can everyone can have a customized experience.
-							<br>
-							<b> Why TalkingChalks?</b> TalkingChalks was born for the course of IoT @ Sapienza University of Rome. <br>
-							During a conference with the curators of the Sapienza Museum of Classical Art we found out that they needed some systems to give some freshness to the Museum. Among the requestes and the ideas it came out that they do not have audio guides, and so we invented TalkingChalks to help the Museum giving some attractiveness for users by letting the statues - literally - talk. <br>
-							TalkingChalks is the effective rensponse to what they need, and we made it real by investigating among the users on what would be the best way to make TalkingChalks real: we made surveys, tests, we added personalized profiles and appreciation recognition. Then we merged our knowledge to develop a simple and solid system to give statues a voice.
-							Here is TalkingChalks.
-							</p>
-						</div>
-					</div>
-					<div data-panel="panel-2">
-						<div>
-							<img src="images/iot.png" />
-							<h3>Environmental Stations</h3>
-							<p><a href="https://github.com/PanK0/iot-project" target="_blank"> GitHub Link </a> <br>
-							 In this project I have experimented new technologies from the IOT world, such as MQTT Protocol, RIOT Operating System, Cloud facilities like ThingsBoard, simulated environments from IOt-lab, LoRa Technology, TheThingsNetwork, Generic Sensors API and much more. 
-							 <br>
-							 Everything has been done and evaluated during the IoT Course @ Sapienza University of Rome.
-							 </p>
-						</div>
-					</div>
-					<div data-panel="panel-3">
-						<div>
-							<img src="images/inode.png" />
-							<h3> Development of a File System Based on iNodes</h3>
-							<p><a href="https://github.com/PanK0/iNode_FS" target="_blank"> GitHub Link </a> <br>
-							 This project is part of my Bachelor's Degree Thesis and it is about the development of a simple File System based on iNodes.
-							 <br>
-							 The project comes from an evolution of a previous project from the Operating System course, the development of a File System based on Linked Lists: by developing two simple File Systems I have tried by my hands what a File System is and how to implement it in the best way, facing all the problems and needings of this important part of an Operating System.
-							 </p>
-						</div>
-					</div>
-					<div data-panel="panel-4">
-						<div>
-							<img src="images/linkedlist.jpg" />
-							<h3>Linked Lists Based File System </h3>
-							<p><a href="https://github.com/PanK0/SO_FS" target="_blank"> GitHub Link </a> 
-							<br>
-							The project Simple File System (SimpleFS) is a didactic project that focuses on the development of a basic File System. It's composed by three levels - Bitmap, DiskDriver, SimpleFS - done to work together in a vertical layout to create and manage files and folders.
-							<br>
-							This work has been done and evaluated during the course of Operating Systems in my Bachelor's Degree and its evolution became my final Thesis.
-							</p>
-						</div>
-					</div>
-					<div data-panel="panel-5">
-						<div>
-							<img src="images/openchallenge.png" />
-							<h3> OpenChallenge </h3>
-							<p><a href="https://github.com/gnufsociety/openchallenge" target="_blank"> GitHub Link </a> 
-							<br>
-							<a href="https://gnufsociety.github.io/index.html" target="_blank"> Web Site </a>
-							<br>
-							OpenChallenge is a new app that allows you to challenge your friends in anything that comes to your mind.
-							<br>
-							The focus is on people meeting in a place to take part in challenges: here people are not passive and can put themselves to the test or just have fun with close friends.
-							<br>
-							Pubs are an important part of the atmosphere and are especially encouraged to organize challenges in order to increase the number of clients of their activities!
-							<br>
-							This project has been developed during the <a href="https://sites.google.com/a/dis.uniroma1.it/google-technologies-for-cloud-and-web-development/" target="_blank">Google Technologies for Cloud and Web Development </a> Workshop.
-							</p>
-						</div>
-					</div>
-					<nav>
-						<span class="bl-next-work">&gt; Next Project</span>
-						<span class="bl-icon bl-icon-close">&gt; HOME</span>
-					</nav>
-				</div>
-			</div>
-		</div><!-- /container -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-		<script src="js/boxlayout.js"></script>
-		<script>
-			$(function() {
-				Boxlayout.init();
-			});
-		</script>
-	</body>
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+    <div class="hero-container" data-aos="fade-in">
+      <h1>Gianluca Panici</h1>
+      <p>I'm <span class="typed" data-typed-items="Computer Engineering student, Information Specialist, not only a developer"></span></p>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>About Me</h2>
+          <p> </p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4" data-aos="fade-right">
+            <img src="assets/img/profile-img.png" class="img-fluid" alt="">
+          </div>
+          <!-- ======= EDUCATION ======= -->
+          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <h3>Education</h3>
+            <p>
+              During the Classical studies I learned how to appreciate ancient history, literature and mythology. I strongly believe that the study of the past is essential to understand the present and somehow the future. In this time I have been elected President of the students for three consecutive years, giving a lot for my school and my mates with a lot of cultural and recreational activities.
+              After the High School my studies continued in the computers world: this passion was born for the curiosity's sake because I have always wanted to understand how computers work in all their aspectes. That's why I have choosen Engineering in Computer Science, both for my Bachelor's and Master's Degree.
+              I've always been attracted from projecting and programming, and my academic path is driving me into the best way.
+            </p>
+            <!--
+            <p class="fst-italic">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+              magna aliqua.
+            </p>
+            -->
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>High School:</strong> <span>Classical Lyceum</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>At:</strong> <span>Liceo Classico e Linguistico P. Gobetti, Fondi (LT)</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Roles:</strong> <span>President of the Students for 3 years</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Acquired Skills:</strong> <span>Work organization, communication with superiors and peers</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>University:</strong> <span>Engineering in Computer Science</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>At:</strong> <span>Sapienza University of Rome</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Bachelor's Degree</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Currently enrolled in:</strong> <span>Master's Degree</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          &nbsp;
+          <hr>
+          
+          <!-- ======= SCIENCE AND TECHNOLOGY ======= -->
+          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <h3>Science and Technology</h3>
+            <p>
+              Other than my studies, I am passionate about science and technology: I love to stay tuned in new technologies, solutions and ideas that could make this world better.
+              From technology to astronomy, passing by biology I like to read more and more to have a nice idea on how the world works.
+              I also like to read about cyber security and to teach people around me about the risks and possibilities of the internet: I strongly believe that education is essential for living well in a fully connected world. 
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Attitude:</strong> <span>Curious</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Interested in:</strong> <span>Technology, Astronomy, Biology</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>How to make the world better:</strong> <span>Through Science</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Like to stay updated in:</strong> <span>Cybersecurity</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Believe in:</strong> <span>Educational role of Computer Science</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          &nbsp;
+          <hr>
+          
+          <!-- ======= SKY AND SPACE ======= -->
+          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <h3>Sky and Space</h3>
+            <p>
+              Since I was a child the sky has always been part of my life: I've grown up always looking up, having fun by learning new stuffs about jet airplanes and dreaming under the stars.
+              This close bond with the sky has been my fuel to pursue the dream of flying, that's why I learned to fly as an amateur pilot.
+              This quote from Leonardo Da Vinci well describes the realization of my dream:
+              <i>“Once you have tasted flight, you will forever walk the earth with your eyes turned skyward, for there you have been, and there you will always long to return.”</i>
+              My strong passion for what is above us moves my desire on orienting my studies in order to give my contributions as a Computer Engineer in the aerospace sector: the future is now, and I really want to be part of it.  
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Best achievement:</strong> <span>Learned to fly</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>As:</strong> <span>Solo Amateur Pilot</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Passion for:</strong> <span>Sky and Space</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Computer Science well fits with:</strong> <span>Aerospace sector</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          &nbsp;
+          <hr>
+          
+          <!-- ======= Personal Interests and Experiences ======= -->
+          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <h3>Personal Interests and Experiences</h3>
+            <p>
+              As I said before, I am proud of myself for making my dream to fly true. To look at the world from above is a very intensive and life-changing experience.
+              Other than that, I have the passion of gardening and growing hot peppers: I think that life is like true magic, and plants have taught me that patience and hard work always pay.
+              One more thing I like to do in my free time is practicing Kick Boxing: I am a black belt and a qualified trainer in this combat sport and I helped my Master in training our athletes bringing brilliant results in the Italian Championship.
+              I am also in the Directive Council of my local Sportive Association, where I sharpened my organizational, communication and planning skills.
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Love for:</strong> <span>Plants and Hot Peppers</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>The true magic is:</strong> <span>Life</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>What always:</strong> <span>Patience and Hard Work</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Sport:</strong> <span>Kickboxing</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Level:</strong> <span>Black Belt, Trainer</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Roles in the Team:</strong> <span>Trainer, Councilor </span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Ensharpened Skills:</strong> <span>Organizational, Communicative, Planning</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+    <!-- End About Section -->
+
+    <!-- ======= Resume Section ======= -->
+    <section id="resume" class="resume">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Resume</h2>
+          <p>panici.k@gmail.com</p>
+          <p>Rome, Italy</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6" data-aos="fade-up">
+            <h3 class="resume-title">Summary</h3>
+            <div class="resume-item pb-0">
+              <h4>Gianluca Panici</h4>
+              <p><em>Master's Degree student in Engineering in Computer Science @ Sapienza University of Rome. Tech entusiastic, hot peppers lover.</em></p>
+              <ul>
+                <li>Rome, Italy</li>
+                <li>panici.k@gmail.com</li>
+                <li>GitHub: <a href="https://github.com/PanK0">PanK0</a></li>
+              </ul>
+            </div>
+
+            <!-- EDUCATION -->
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>Master's Degree</h4>
+              <p><em>Sapienza University of Rome, Italy</em></p>
+              <p>Currently enrolled in Engineering in Computer Science.
+                Courses and exams are given in English.
+              </p>
+            </div>
+            <div class="resume-item">
+              <h4>Bachelor's Degree</h4>
+              <p><em>Sapienza University of Rome, Italy</em></p>
+              <h5>100/110</h5>
+              <p>Bachelor's Degree in Engineering in Computer Science at Sapienza Università di Roma.</p>
+              <p>Thesis title: "Development of a File System based on iNodes" - [<a href="https://github.com/PanK0/iNode-File-System">GITHUB</a>]</p> 
+            </div>
+            <div class="resume-item">
+              <h4>High School</h4>
+              <p><em>Classical Lyceum P. Gobetti in Fondi, Italy. </em></p>
+              <h5>92/100</h5>
+              <p>Elected President of the students for three consecutive years.</p> 
+            </div>
+          </div>
+
+          <!-- SKILLS AND ABILITIES -->
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Skills &amp Abilities</h3>
+            <div class="resume-item">
+              <h4>Computer related</h4>
+              <p><em>What I understand when I am behind a computer</em></p>
+              <ul>
+                <li>Programming, C, Python, Java, Assembly, SQL</li>
+                <li>Algorithm Design, Data Structures</li>
+                <li>Information Security, Cryptography, Distributed Systems</li>
+                <li>Convolutional Neural Networks, Machine Learning</li>
+                <li>Operating Systems, Linux User, Ubuntu User</li>
+                <li>Engineering, Logic, Databases</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Soft Skills</h4>
+              <p><em>Skills acquired in my experiences</em></p>
+              <ul>
+                <li>Problem Solving, Cold Reasoning</li>
+                <li>Team Leading, Team Projects, Deadline Compliance</li>
+                <li>Event Organization, Planning</li>
+                <li>Motivational Speaking, Public Speaking</li>
+                <li>Technology Enthusiastic, Science Lover</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Languages</h4>
+              <p><em>Languages in which I can have a conversation, read a book or a scientific paper</em></p>
+              <ul>
+                <li>Italian</li>
+                <li>English, technincal English</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Resume Section -->
+
+    <!-- ======= Projects Section ======= -->
+    <section id="portfolio" class="portfolio section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>My Projects</h2>
+          <p>Projects I worked on.</p>
+        </div>
+
+        <div class="row" data-aos="fade-up">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-se">Software Engineering</li>
+              <li data-filter=".filter-nn">Neural Networks</li>
+              <li data-filter=".filter-iot">IOT</li>
+              <li data-filter=".filter-extra">Extras</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
+          
+          <!-- LIGHT-SERNET -->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-nn">
+            <div class="portfolio-wrap">
+              <p><h5>Light-SERNet: a fully convolutional neural network for speech emotion recognition</h5></p>
+              <img src="assets/img/portfolio/portfolio-lightsernet.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-lightsernet.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Light-SERNet: A lightweight fully convolutional neural network for speech emotion recognition"> <i class="bx bx-plus"></i></a>
+                <a href="pages/portfolio-details-lightsernet.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- SOFTWARE ENGINEERING -->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-se">
+            <div class="portfolio-wrap">
+              <p><h5>Software Engineering Projects</h5></p>
+              <img src="assets/img/portfolio/portfolio-softeng.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-softeng.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Software Engineering Projects"><i class="bx bx-plus"></i></a>
+                <a href="pages/portfolio-details-softeng.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- SIGNAL VS MTPROTO ANALYSIS -->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-extra">
+            <div class="portfolio-wrap">
+              <p><h5>Signal and MTProto protocols analysis</h5></p>
+              <img src="assets/img/portfolio/portfolio-wappvstg.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-wappvstg.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Signal and MTProto protocols analysis"><i class="bx bx-plus"></i></a>
+                <a href="pages/portfolio-details-protocols.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Convolutional Neural Network -->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-nn">
+            <div class="portfolio-wrap">
+              <p><h5>Convolutional Neural Network for image classification</h5></p>
+              <img src="assets/img/portfolio/portfolio-cnn.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-cnn.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Convolutional Neural Network for image classification"> <i class="bx bx-plus"></i></a>
+                <a href="pages/portfolio-details-cnn.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- MOONET -->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-extra">
+            <div class="portfolio-wrap">
+              <p><h5>MooNet - A Lunar Surface Network Infrastructure</h5></p>
+              <img src="assets/img/portfolio/portfolio-moonet.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-moonet.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="MooNet - A Lunar Surface Network Infrastructure"><i class="bx bx-plus"></i></a>
+                <a href="pages/portfolio-details-moonet.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- TALKING CHALKS -->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-iot">
+            <div class="portfolio-wrap">
+              <p><h5>Talking Chalks</h5></p>
+              <img src="assets/img/portfolio/portfolio-talkingchalks.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-talkingchalks.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Talking Chalks"><i class="bx bx-plus"></i></a>
+                <a href="pages/portfolio-details-talkingchalks.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+          
+          <!-- ENVIRONMENTAL STATIONS -->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-iot">
+            <div class="portfolio-wrap">
+              <p><h5>Environmental Stations</h5></p>
+              <img src="assets/img/portfolio/portfolio-iot.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-iot.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Environmental Stations - IOT Project"><i class="bx bx-plus"></i></a>
+                <a href="pages/portfolio-details-envstations.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- iNode File System -->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-se">
+            <div class="portfolio-wrap">
+              <p><h5>iNode File System</h5></p>
+              <img src="assets/img/portfolio/portfolio-inode.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-inode.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="File System based on inodes"><i class="bx bx-plus"></i></a>
+                <a href="pages/portfolio-details-inodefs.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Simple File System -->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-se">
+            <div class="portfolio-wrap">
+              <p><h5>Simple File System</h5></p>
+              <img src="assets/img/portfolio/portfolio-linkedlist.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-linkedlist.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Simple File System based on linked lists"><i class="bx bx-plus"></i></a>
+                <a href="pages/portfolio-details-simplefs.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" >
+
+        <div class="section-title">
+          <h2>Contact</h2>
+        </div>
+
+        <div class="row" data-aos="fade-in">
+
+          <div class="col-lg-5 d-flex align-items-stretch">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Location:</h4>
+                <p>Rome, Italy</p>
+              </div>
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p>panici.k@gmail.com</p>
+              </div>
+              <!--
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
+              -->
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>iPortfolio</span></strong>
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/ -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer><!-- End  Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
 
 </html>
